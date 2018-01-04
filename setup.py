@@ -98,7 +98,7 @@ setup(
     install_requires=[
         "conda",
         "ruamel_yaml",
-        "pillow >=3.1 ; platform_system=='Windows'",
+        "pillow >=3.0 ; platform_system=='Windows'",
         # non-python dependency: "nsis >=3.01 ; platform_system=='Windows'",
     ],
     package_data=get_package_data(None),
